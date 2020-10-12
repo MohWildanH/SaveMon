@@ -1,0 +1,599 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #fafcff;
+    scroll-behavior: smooth ;
+  }
+  
+  .nav {
+    height: 70px;
+    width: 100%;
+    /* background-color: grey; */
+    position: relative;
+  }
+  
+  .nav .nav-header {
+    display: inline;
+  }
+  
+  .nav .nav-header .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #585C63;
+    padding: 26px 15px 15px 6%;
+  }
+
+  .nav .nav-header .nav-title img {
+    max-width: 142px;
+  }
+  
+  .nav .nav-btn {
+    display: none;
+  }
+  
+  .nav .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    padding-right: 5%;
+  }
+  
+  .nav .nav-links a {
+    display: inline-block;
+    padding: 29px 25px 15px 25px;
+    text-decoration: none;
+    color: #585C63;
+  }
+  
+  .nav-links a:hover {
+    color: #07917A;
+  }
+  
+  .nav #nav-check {
+    display: none;
+  }
+
+  .tentang-img img {
+    width: 40%;
+    position: relative;
+    margin-top: 9%;
+    margin-left: 2%;
+    z-index: -1;
+  }
+
+  .tentang-h1 {
+    margin-top: -30%;
+  }
+
+  .tentang-h1 h1 {
+    color: #373C46;
+    font-size: 3.7vw;
+    font-weight: 780;
+    margin-left: 43%;
+    line-height: 50px;
+  }
+
+  .tentang-p p {
+    color: #373C46;
+    margin-left: 43%;
+    font-size: 1.1vw;
+    line-height: 35px;
+  }
+
+  .tentang-button button {
+    background-color: #0BAF94;
+    margin-top: 2%;
+    margin-left: 43%;
+    padding: 20px 40px;
+    border-radius: 12px;
+    border: 1px solid #0BAF94;
+  }
+
+  .tentang-button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .topfarrel-h1 {
+    margin-top: 20%;
+  }
+
+  .topfarrel-img img {
+    width: 40%;
+    position: relative;
+    left: 57%;
+    margin-top: -35%;
+  }
+
+  .topfarrel-h1 h1 {
+    color: #373C46;
+    font-size: 3.7vw;
+    font-weight: 780;
+    margin-left: 6%;
+    line-height: 50px;
+  }
+
+  .role-p p {
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #373C46;
+  }
+
+  .topfarrel-p p {
+    color: #373C46;
+    margin-left: 6%;
+    line-height: 30px;
+  }
+
+  .bottom-button {
+    position: relative;
+  }
+
+  .topfarrel-button {
+    margin-left: 6%;
+    margin-top: 3%;
+  }
+
+  .topfarrel-button button {background-color: #0BAF94;
+    border-radius: 7px;
+    border: 1px solid #0BAF94;
+    padding-left: 23px;
+    width: 14%;
+  }
+
+  .topfarrel-button a {
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+
+  .topfarrel-button img {
+    width: 12%;
+    height: 1%;
+    padding-top: 8%;
+  }
+
+  .topfarrel-button p {
+    padding-left: 13px;
+  }
+
+  .ig-button {
+    margin-left: 20%;
+    margin-top: -50px;
+    position: relative;
+  }
+
+  .ig-button img {
+    max-width: 79%;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+
+  .ig-button button {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    max-width: 5%;
+  }
+
+  /* alfis */
+  .container {
+    margin-top: -36.2%;
+  }
+
+  .centeralfis-img img {
+    width: 40%;
+    position: relative;
+    margin-top: 38%;
+    margin-left: 2%;
+  }
+
+  .centeralfis {
+    margin-top: -30%;
+  }
+
+  .centeralfis-h1 h1 {
+    color: #373C46;
+    font-size: 3.7vw;
+    font-weight: 780;
+    margin-left: 52%;
+    line-height: 50px;
+  }
+
+  .rolecenter-p p {
+    margin-left: 52%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #373C46;
+  }
+
+  .centeralfis-p p {
+    color: #373C46;
+    margin-left: 52%;
+    line-height: 30px;
+  }
+
+  .bottom-buttoncenter {
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  .centeralfis-button {
+    margin-left: 17%;
+    margin-top: 3%;
+  }
+
+  .centeralfis-button button {
+    background-color: #0BAF94;
+    border-radius: 7px;
+    border: 1px solid #0BAF94;
+    padding-left: 20px;
+    width: 15%;
+  }
+
+  .centeralfis-button a {
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+
+  .centeralfis-button img {
+    width: 12%;
+    height: 1%;
+    padding-top: 8%;
+  }
+
+  .centeralfis-button p {
+    padding-left: 13px;
+  }
+
+  .ig-buttoncenter {
+    margin-left: 35%;
+    margin-top: -50px;
+  }
+
+  .ig-buttoncenter img {
+    max-width: 79%;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+
+  .ig-buttoncenter button {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    max-width: 6%;
+  }
+
+  /* wildan */
+  .topwildan-h1 {
+    margin-top: 17%;
+  }
+
+  .topwildan-img img {
+    width: 40%;
+    position: relative;
+    left: 58%;
+    margin-top: -31%;
+  }
+
+  .topwildan-h1 h1 {
+    color: #373C46;
+    font-size: 3.7vw;
+    font-weight: 780;
+    margin-left: 6%;
+    line-height: 50px;
+  }
+
+  .rolewildan-p p {
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #373C46;
+  }
+
+  .topwildan-p p {
+    color: #373C46;
+    margin-left: 6%;
+    line-height: 30px;
+  }
+
+  .topwildan-button {
+    margin-left: 6%;
+    margin-top: 3%;
+  }
+
+  .topwildan-button button {background-color: #0BAF94;
+    border-radius: 7px;
+    border: 1px solid #0BAF94;
+    padding-left: 20px;
+    width: 14%;
+  }
+
+  .topwildan-button a {
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+
+  .topwildan-button img {
+    width: 12%;
+    height: 1%;
+    padding-top: 8%;
+  }
+
+  .topwildan-button p {
+      padding-left: 13px;
+  }
+
+  .ig-buttonwildan {
+    margin-left: 20%;
+    margin-top: -50px;
+  }
+
+  .ig-buttonwildan img {
+    max-width: 79%;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+
+  .ig-buttonwildan button {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    max-width: 5%;
+  }
+
+  .footer-container {
+    background-color: #0BAF94;
+    width: 100%;
+    margin-top: 6%;
+    padding-bottom: 3%;
+  }
+
+  .footer-logo img {
+    margin-left: 6%;
+    max-width: 14%;
+    margin-top: 6%;
+  }
+
+  .footer-paragraf {
+    color: #FFFFFF;
+    margin-left: 6%;
+    margin-top: 2%;
+    line-height: 28px;
+  }
+
+  .footer-line hr {
+    width: 88%;
+    margin-top: 6%;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+  }
+
+  .cp-container {
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+
+  .center {
+    padding-left: 45%;
+  }
+
+  .right {
+    padding-left: 7%;
+  }
+
+  @media (max-width:600px) {
+    body {
+      overflow-x: hidden;
+    }
+
+    .nav .nav-header .nav-title {
+      padding: 17px 15px 15px 5%;
+    }
+    
+    .nav .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav .nav-btn  label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      margin: 10px 21px 0px 0px;
+    }
+
+    .nav .nav-btn  label  span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #0BAF94;
+    }
+    .nav .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #fafcff;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 70px;
+      left: 0px;
+    }
+    .nav .nav-links  a {
+      display: block;
+      width: 100%;
+      height: 15%;
+    }
+    .nav #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav #nav-check:checked ~ .nav-links {
+      height: calc(70vh - 50px);
+      overflow-y: auto;
+    }
+
+    .tentang-img img {
+      width: 100%;
+    }
+
+    .container-desc {
+      margin-top: 49%;
+      margin-left: -51%;
+    }
+
+    .tentang-h1 h1 {
+      font-size: 40px;
+      line-height: 45px;
+      margin-left: 38%;
+    }
+    
+    .tentang-p p {
+      margin-left: 38%;
+      font-size: 14px;
+      line-height: 45px;
+    }
+
+    .tentang-button button {
+      margin-left: 38%;
+    }
+
+    .responsive-container {
+      margin-top: 137%;
+    }
+
+    .topfarrel-h1 h1 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+.topfarrel-p p{
+  font-size: 17px;
+  line-height: 40px;
+}
+    .topfarrel-img {
+      margin-top: -91%;
+    }
+
+    .topfarrel-img img {
+      width: 95%;
+      left: 0%;
+      margin-top: -85%;
+      position: absolute;
+    }
+
+    .bottom-button {
+      width: 277%;
+      margin-left: -10%;
+    }
+
+    .container {
+      margin-top: 8%;
+      margin-left: -95%;
+    }
+
+    .centeralfis {
+      margin-top: 91%;  
+    }
+
+    .centeralfis-h1 h1 {
+       font-size: 40px;
+       line-height: 45px;
+    }
+.centeralfis-p p{
+  
+  font-size: 17px;
+  line-height: 40px;
+}
+    .centeralfis-img img {
+      width: 95%;
+      margin-top: 30%;
+    }
+
+    .bottom-buttoncenter {
+      width: 154%;
+      margin-left: -28%;
+    }
+
+    .responsive-containerwildan {
+      margin-top: 137%;
+    }
+
+    .topwildan-h1 h1 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+.topwildan-p P{
+  
+  font-size: 17px;
+  line-height: 40px;
+}
+    .topwildan-img {
+      margin-top: -91%;
+    }
+
+    .topwildan-img img {
+      width: 95%;
+      left: 0%;
+      margin-top: -85%;
+      position: absolute;
+    }
+
+    .bottom-buttonwildan {
+      width: 277%;
+      margin-left: -10%;
+    }
+
+    .footer-container {
+      margin-top: 111%;
+    }
+
+    .footer-logo img {
+      max-width: 35%;
+    }
+
+    .cp-container {
+      display: block;
+      padding-bottom: 7%;
+    }
+
+    .left p {
+      margin-top: 19%;
+      text-align: center;
+      margin-left: -11%;
+    }
+
+    .center p {
+      margin-top: -39%;
+      text-align: left;
+      margin-left: -82%;
+    }
+
+    .right p {
+      margin-top: -9%;
+      text-align: end;
+      margin-right: 7%;
+    }
+}

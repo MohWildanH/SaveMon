@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fafcff;
+  scroll-behavior: smooth ;
+  overflow-x: hidden;
+}
+
+.gambarr img{
+    width: 50%;
+}
+.gambarr{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.judul{
+position: absolute;
+top: 250px;
+padding-left: 53%;
+}
+.judul h1{
+    font-size: 400%;
+    font-family: nunito sans;
+    width: 621px;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 800;
+line-height: 90px;
+/* or 150% */
+
+
+color: #373C46;
+
+}
+.judul h5{
+    font-size: 150%;
+    color: #606164;
+font-style: normal ;
+    font-family: nunito sans;
+}
+.judul a{
+    text-decoration: none;
+}
+.isinya h5{
+    font-family: Nunito Sans;
+font-style: normal;
+width: 1300px;
+font-weight: normal;
+font-size: 150%;
+padding-left: 2%;
+line-height: 40px;
+/* or 195% */
+
+
+color: #676A71;
+
+}
+.isinya{
+    padding-left: 5%;
+}
+.nav {
+    height: 70px;
+    width: 100%;
+    /* background-color: grey; */
+    position: relative;
+  }
+  
+  .nav .nav-header {
+    display: inline;
+  }
+  
+  .nav .nav-header .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #585C63;
+    padding: 26px 15px 15px 6%;
+  }
+
+  .nav .nav-header .nav-title img {
+    max-width: 142px;
+  }
+  
+  .nav .nav-btn {
+    display: none;
+  }
+  
+  .nav .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    padding-right: 5%;
+  }
+  
+  .nav .nav-links a {
+    display: inline-block;
+    padding: 29px 25px 15px 25px;
+    text-decoration: none;
+    color: #585C63;
+  }
+  
+  .nav-links a:hover {
+    /* border-bottom: 4px solid #0BAF94;
+    padding-bottom: 3px; */
+    /* background-color: #0BAF94;
+    border-radius: 0px 0px 11px 11px; */
+    color: #07917A;
+  }
+  
+  .nav #nav-check {
+    display: none;
+  }
+
+  .footer-container {
+    background-color: #0BAF94;
+    width: 100%;
+    margin-top: 9%;
+    padding-bottom: 3%;
+  }
+
+  .footer-logo img {
+    margin-left: 6%;
+    max-width: 14%;
+    margin-top: 6%;
+  }
+
+  .footer-paragraf {
+    color: #FFFFFF;
+    margin-left: 6%;
+    margin-top: 2%;
+    line-height: 28px;
+  }
+
+  .footer-line hr {
+    width: 88%;
+    margin-top: 6%;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+  }
+
+  .cp-container {
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+
+  .center {
+    padding-left: 45%;
+  }
+
+  .right {
+    padding-left: 7%;
+  }
+
+@media screen and (max-width:680px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav .nav-header .nav-title {
+    padding: 17px 15px 15px 5%;
+  }
+  
+  .nav .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav .nav-btn  label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    margin: 10px 21px 0px 0px;
+  }
+
+  .nav .nav-btn  label  span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #0BAF94;
+  }
+  .nav .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #fafcff;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 70px;
+    left: 0px;
+  }
+  .nav .nav-links  a {
+    display: block;
+    width: 100%;
+    height: 15%;
+  }
+  .nav #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav #nav-check:checked ~ .nav-links {
+    height: calc(70vh - 50px);
+    overflow-y: auto;
+  }
+  .gambar img{
+      width: 80%;
+      padding-bottom: 10%;
+  }
+  .isi h1{
+      font-size: 200%;
+      line-height: 15px;
+      width: 400px;
+  }
+  .isi h2{
+      font-size: 120%;
+      line-height: 35px;
+      width: 431px;
+  }
+  .asu h1{
+      font-size: 200%;
+  }
+  .isii{
+      column-count: 3;
+  }
+  .image-1 img{
+      width: 80%;
+  }
+  .rekomen h1{
+      font-size: 200%;
+      line-height: 15px;
+      width: 400px;
+      padding-right: 9%;
+  }
+
+  .rekomen h2{
+      padding-top: 23%;
+      font-size: 120%;
+      line-height: 35px;
+      width: 430px;
+      right: 9px;
+      position: relative;
+  }
+  .button-1{
+      position: relative;
+      bottom: 90px;
+      right: 10PX;
+  }
+  .isi{
+      padding-right: 50%;
+  }
+  .button{
+      position: relative;
+      right: 5%;
+  }
+  .gambarr img{
+    width: 100%;
+  }
+
+  .judul h1{
+    font-size:200%;
+    width: 350px;
+    padding-left: 4%;
+    line-height: 60px;
+  }
+  .judul h5{
+    font-size: 100%;
+
+    padding-left: 4%;
+  }
+  .isinya h5{
+    font-size: 100%;
+    line-height: 40px;
+    width: 410px;
+    padding-left: 6%;
+    padding-top: 60%;
+  }
+  .judul{
+    padding-top: 70%;
+    right: 100px;
+  }
+  .footer-container {
+    margin-top: 20%;
+  }
+
+  .footer-logo img {
+    max-width: 35%;
+  }
+
+  .cp-container {
+    display: block;
+    padding-bottom: 7%;
+  }
+
+  .left p {
+    margin-top: 19%;
+    text-align: center;
+    margin-left: -11%;
+  }
+
+  .center p {
+    margin-top: -39%;
+    text-align: left;
+    margin-left: -82%;
+  }
+
+  .right p {
+    margin-top: -9%;
+    text-align: end;
+    margin-right: 7%;
+  }
+}
